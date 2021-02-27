@@ -12,7 +12,7 @@ public class InterviewQuestions {
     public String pangramAndReversal(String input) {
 
         //determine if this is a pangram
-        for (int i = 0; i < alphabet.length(); i-=-1) {
+        for (int i = 0; i < alphabet.length(); i++) {
             if (input.indexOf(alphabet.charAt(i)) == -1) {
                 return "This is not a pangram!";
             }
